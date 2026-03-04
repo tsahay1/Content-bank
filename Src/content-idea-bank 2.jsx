@@ -90,7 +90,7 @@ const Modal = ({ onClose, onSave, editItem }) => {
 
         <div style={{ display: "grid", gap: "16px" }}>
           <Field label="Title">
-            <input valu&e={form.title} onChange={e => set("title", e.target.value)}
+            <input value={form.title} onChange={e => set("title", e.target.value)}
               placeholder="What's the content idea?" style={inputStyle} />
           </Field>
 
